@@ -7,7 +7,7 @@ const Header = () => {
         return "nav-link"
     }
     return (
-        <Navbar bg="dark" variant="dark" className="px-3">
+        <Navbar bg="transparent" variant="dark">
             <Navbar.Brand>Login</Navbar.Brand>
             <Nav className="me-auto">
                 <Link to={'/'} className={className('/')}>Beranda</Link>
